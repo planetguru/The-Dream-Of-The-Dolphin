@@ -25,7 +25,13 @@ upper = \relative c''
   
   gs8 b, e a ~ a  b, e gs | 
   r4 fs8 b, ~ b cs ds ~ ds |
-  e  gs, cs ds ~ds cs gs cs  
+  e  gs, cs ds ~ds cs gs cs ~ | % tie this to next note later
+  cs   r a b ~ b cs4. |
+  e8 gs, b fs'4 gs,8 b e ~ |
+  e b ds fs, ~ fs b  cs ds  |
+  e gs, cs ds ~ ds4 e8 cs ~ |
+  cs4 e,8 a ~ a b cs b
+  
 }
 
 lower = \relative c {
@@ -37,10 +43,12 @@ lower = \relative c {
   ds8 ds' ~ ds2.  |
   <cs, cs'>2.  cs'4 |
   a,8 a' ~ a2. |
-  <e e'>  |
+  <e, e'>1  |
   <ds ds'> |
   <cs cs'> |
-  <b' b'>
+  <gs gs'> |
+  
+  
 }
 
 
