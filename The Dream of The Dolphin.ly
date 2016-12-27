@@ -21,7 +21,7 @@ upper = \relative c''
   \key e \major
   \clef treble
   \time 4/4
-    \tempo 4 = 90
+  \tempo 4 = 95
   
   gs8 b, e a ~ a  b, e gs | 
   r4 fs8 b, ~ b cs ds ~ ds |
